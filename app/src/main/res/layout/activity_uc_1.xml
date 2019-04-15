@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="100dp" >
+
+    <TextView
+        android:id="@+id/uc__1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:text="水平布局"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/uc__2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:text="垂直布局"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/uc__3"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:text="靠左对齐"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:id="@+id/button_uc1"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:text="返回"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_marginTop="70dp"
+        />
+</LinearLayout >

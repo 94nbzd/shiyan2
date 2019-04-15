@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        >
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="170dp"
+            android:layout_height="80dp"
+            android:text="第一个Button"
+            android:textSize="20sp"
+            android:background="#ffffff" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="170dp"
+            android:layout_height="80dp"
+            android:text="第二个Button"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:background="#ffffff"/>
+    </TableRow>
+
+    <TableRow
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tableRow2">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:background="#ffffff"
+            android:layout_span="2"
+            android:text="第三个Button"
+            android:textSize="20sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tableRow3">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="第四个Button"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="95dp" >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/button_uc4"
+            android:text="返回"
+            android:textSize="20sp"
+            android:background="#ffffff"
+            android:layout_span="2"/>
+    </TableRow>
+</TableLayout>

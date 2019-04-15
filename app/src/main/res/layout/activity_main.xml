@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp" >
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:text="线性布局"
+        android:textSize="25sp"
+        />
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:text="相对布局"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp" />
+    <Button
+        android:id="@+id/button_3"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:text="帧布局"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/button_4"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:text="表格布局"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/button_5"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:text="网格布局"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="204dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:paddingLeft="20dp"
+        android:paddingTop="15dp"
+        android:text="王洪灿"
+        android:textSize="50sp" />
+</LinearLayout>

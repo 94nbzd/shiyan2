@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/tuc_1"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:text="第一个button"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/tuc_2"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:text="第二个button"
+        android:textSize="25sp"
+        android:layout_toRightOf ="@id/tuc_1"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/tuc_3"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:text="第三个button"
+        android:textSize="25sp"
+        android:layout_below="@id/tuc_1"
+        android:layout_marginTop="40dp"
+        />
+    <TextView
+        android:id="@+id/tuc_4"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:text="第四个button"
+        android:textSize="25sp"
+        android:layout_toRightOf ="@id/tuc_3"
+        android:layout_below="@id/tuc_2"
+        android:layout_marginTop="40dp"
+        />
+    <Button
+        android:id="@+id/button_uc2"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="返回"
+        android:textSize="25sp"
+        android:background="#ffffff"
+        android:layout_marginTop="400dp"
+        />
+
+</RelativeLayout>
